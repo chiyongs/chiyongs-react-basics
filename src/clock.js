@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 
 const Clock = () => {
-  let [hours, setHours] = useState("00");
-  let [minutes, setMinutes] = useState("00");
-  let [seconds, setSeconds] = useState("00");
+  let [hours, setHours] = useState("");
+  let [minutes, setMinutes] = useState("");
+  let [seconds, setSeconds] = useState("");
 
   setInterval(() => {
     hours = new Date().getHours();

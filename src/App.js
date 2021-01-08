@@ -1,13 +1,12 @@
 import React from "react";
-import "./App.css";
-import Clock from "./Clock";
-import Todo from "./Todo";
+import Clock from "./clock";
+import TodoForm from "./todoform";
 
 function App() {
   return (
     <div className="App">
       <Clock />
-      <Todo />
+      <TodoForm />
     </div>
   );
 }
